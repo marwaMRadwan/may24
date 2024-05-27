@@ -1,0 +1,9 @@
+- what is ts
+- install
+- render
+- types
+- control flow
+- functions
+- classes
+- inhertance
+- interfaces

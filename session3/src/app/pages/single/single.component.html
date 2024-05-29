@@ -1,0 +1,9 @@
+<section class="container">
+<div *ngIf="single; else elBlock">
+    <p>{{single.id}}</p>
+    <p>{{single.title}}</p>
+</div>
+<ng-template #elBlock>
+    No item found
+</ng-template>
+</section>

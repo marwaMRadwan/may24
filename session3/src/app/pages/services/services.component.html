@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="
+        let el of allServices; 
+        let i = index" 
+        routerLink="/services/{{el.id}}">
+        
+        {{ i }} - {{ el.title }}
+    
+    </li>
+</ul>

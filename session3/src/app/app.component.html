@@ -1,0 +1,93 @@
+<!-- 
+  ng new appName --standalone=false
+ -->
+ <!-- <app-nav />
+<router-outlet />
+<app-footer /> -->
+
+<!-- <p [innerHTML]="data"></p>
+{{data}} -->
+<!-- {{val}}
+<br> -->
+<!-- <input  (input)="getNewData($event)"> -->
+
+<!-- <input  [(ngModel)]="val" (input)="checkData()">
+{{myErr}} -->
+
+<!-- <div *ngFor="let d of myData; let i=index; let f=first, let l=last; let o=odd; let e=even; let c=count" > -->
+  <!-- {{i}} - {{f}} -{{l}} - {{o}} -{{e}} - {{c}} -->
+  <!-- <ng-template *ngIf="f; else elseBlock"><h3>first</h3></ng-template>
+  <ng-template #elseBlock> not first </ng-template>
+  <p>{{d.title}}</p>
+  <img [src]="d.thumbnailUrl">
+</div> -->
+<!-- <ng-template #myElse>
+  <p>don't show</p>
+</ng-template>
+<input [(ngModel)]="status">
+<p *ngIf=" status=='show'; else myElse ">
+  show me
+</p> -->
+<!-- <section class="container">
+
+  <div class="row">
+    <input class="form-control" [(ngModel)]="serKey" (input)="searchOnData()"> -->
+    <!-- {{filtered.length}} -->
+  <!-- <div class="row" *ngIf="filtered.length; else noData">
+    <div class="col-md-4 col-12" *ngFor="let el of filtered" >
+      <div class="m-3 border border-3">
+        <img [src]="el.url" class="img-fluid">
+        <p class="text-primary">{{el.title}}</p>
+      </div>
+    </div>
+  </div>
+  <ng-template #noData>
+    <p class="alert alert-danger">
+      no data found
+    </p>
+  </ng-template>
+  </div>
+</section> -->
+
+
+
+<!-- <div [ngSwitch]="monthNum">
+  <p *ngSwitchCase="'abc'">Jan</p>
+  <p *ngSwitchDefault>data not found</p>
+</div> -->
+
+<!-- <div [ngClass]="status?'odd':'even'"></div> -->
+
+<!-- <table class="table table-stripped">
+  <thead>
+    <th>id</th>
+    <th>title</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let el of myData; let o=odd; let e = even"  [ngClass]="'x'" [ngClass]="title" class="x" [ngStyle]="{
+      'font-style': true ? 'italic' : 'normal',
+      'font-weight': false ? 'bold' : 'normal',
+      'font-size': true ? '24px' : '12px',
+    }">
+      <td [ngClass]="[o?'bg-danger': 'bg-primary', e?'a':'b']">{{el.id}}</td>
+      <td>{{el.title}}</td>
+    </tr>
+  </tbody>
+</table> -->
+
+
+<router-outlet />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
